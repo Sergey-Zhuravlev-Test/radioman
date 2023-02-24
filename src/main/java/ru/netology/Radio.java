@@ -1,8 +1,8 @@
 package ru.netology;
 
 public class Radio {
-    public int currentStationNumber;
-    public int currentSoundVolume;
+    protected int currentStationNumber;
+    protected int currentSoundVolume;
 
     public int getCurrentStationNumber() {
         return currentStationNumber;
